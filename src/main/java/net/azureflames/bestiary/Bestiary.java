@@ -29,7 +29,7 @@ public class Bestiary
 
         modEventBus.addListener(this::addCreative);
     }
-
+    // dwsdsd
     private void commonSetup(final FMLCommonSetupEvent event)
     {
     }
