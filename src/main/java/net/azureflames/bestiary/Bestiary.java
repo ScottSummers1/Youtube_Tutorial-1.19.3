@@ -1,6 +1,7 @@
 package net.azureflames.bestiary;
 
 import com.mojang.logging.LogUtils;
+import net.azureflames.bestiary.item.ModCreativeModeTabs;
 import net.azureflames.bestiary.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -42,7 +43,15 @@ public class Bestiary
     {
         if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
+
         }
+        if(event.getTab() == ModCreativeModeTabs.BESTIARY_TAB) {
+            event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
+
+        }
+
     }
 
 

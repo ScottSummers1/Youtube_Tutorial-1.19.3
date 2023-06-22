@@ -1,3 +1,6 @@
 {
-  "item.bestiary.black_opal": "Black Opal"
+  "item.bestiary.black_opal": "Black Opal",
+  "item.bestiary.raw_black_opal": "Raw Black Opal",
+
+  "creativemodetab.bestiary_tab": "Bestiary Tab"
 }
