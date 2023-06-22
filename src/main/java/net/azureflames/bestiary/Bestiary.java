@@ -1,6 +1,8 @@
 package net.azureflames.bestiary;
 
 import com.mojang.logging.LogUtils;
+import net.azureflames.bestiary.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
@@ -24,6 +26,8 @@ public class Bestiary
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -36,6 +40,9 @@ public class Bestiary
 
     private void addCreative(CreativeModeTabEvent.BuildContents event)
     {
+        if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.BLACK_OPAL);
+        }
     }
 
 
