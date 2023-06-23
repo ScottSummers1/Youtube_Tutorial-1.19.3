@@ -12,10 +12,9 @@ import net.minecraftforge.fml.common.Mod;
 public class ModCreativeModeTabs {
     public static CreativeModeTab BESTIARY_TAB;
 
-    public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event){
+    public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
         BESTIARY_TAB = event.registerCreativeModeTab(new ResourceLocation(Bestiary.MOD_ID, "bestiary_tab"),
                 builder -> builder.icon(() -> new ItemStack(ModItems.BLACK_OPAL.get()))
                         .title(Component.translatable("creativemodetab.bestiary_tab")));
     }
 }
-
