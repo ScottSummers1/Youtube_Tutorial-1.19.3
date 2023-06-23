@@ -18,3 +18,4 @@ public class ModCreativeModeTabs {
                         .title(Component.translatable("creativemodetab.bestiary_tab")));
     }
 }
+
