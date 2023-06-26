@@ -31,7 +31,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_BLACK_OPAL_ORE = registerBlock("deepslate_black_opal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(8f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
-    public static final RegistryObject<Block> nETHERRACK_BLACK_OPAL_ORE = registerBlock("nettherrack_black_opal_ore",
+    public static final RegistryObject<Block> NETHERRACK_BLACK_OPAL_ORE = registerBlock("nettherrack_black_opal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(4f).requiresCorrectToolForDrops(), UniformInt.of(2, 6)));
     public static final RegistryObject<Block> ENDSTONE_BLACK_OPAL_ORE = registerBlock("endstone_black_opal_ore",
