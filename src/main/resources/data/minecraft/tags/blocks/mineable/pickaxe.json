@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bestiary:black_opal_ore",
+    "bestiary:black_opal_block",
+    "bestiary:deepslate_black_opal_ore",
+    "bestiary:endstone_black_opal_ore",
+    "bestiary:netherrack_black_opal_ore"
+  ]
+}
