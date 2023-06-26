@@ -3,6 +3,10 @@
   "item.bestiary.raw_black_opal": "Raw Black Opal",
 
   "block.bestiary.black_opal_block" : "Black Opal Block",
+  "block.bestiary.deepslate_black_opal_block" : "Deepslate Black Opal Block",
+  "block.bestiary.netherrack_black_opal_block" : "Netherrack Black Opal Block",
+  "block.bestiary.endstone_black_opal_block" : "Endstone Black Opal Block",
+
 
   "creativemodetab.bestiary_tab": "Bestiary Tab"
 }
