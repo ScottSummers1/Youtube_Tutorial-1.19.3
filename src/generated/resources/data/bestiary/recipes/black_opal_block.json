@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "misc",
   "key": {
     "#": {
       "item": "bestiary:black_opal"
@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "bestiary:black_opal_block"
-  }
+  },
+  "show_notification": true
 }
