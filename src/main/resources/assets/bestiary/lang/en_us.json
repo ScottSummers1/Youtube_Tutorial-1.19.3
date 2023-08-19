@@ -8,6 +8,14 @@
   "block.bestiary.netherrack_black_opal_ore" : "Netherrack Black Opal Ore",
   "block.bestiary.endstone_black_opal_ore" : "Endstone Black Opal Ore",
 
+  "block.bestiary.ebony_log": "Ebony Log",
+  "block.bestiary.ebony_planks": "Ebony Planks",
+  "block.bestiary.ebony_wood": "Ebony Wood",
+  "block.bestiary.stripped_ebony_log": "StrippedEbony Log",
+  "block.bestiary.stripped_ebony_wood": "Stripped Ebony Wood",
+  "block.bestiary.ebony_leaves": "Ebony Leaves",
+  "block.bestiary.ebony_sapling": "Ebony Sapling",
+
 
   "creativemodetab.bestiary_tab": "Bestiary Tab"
 }

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bestiary:ebony_log",
+    "bestiary:ebony_wood",
+    "bestiary:stripped_ebony_log",
+    "bestiary:stripped_ebony_wood"
+  ]
+}
