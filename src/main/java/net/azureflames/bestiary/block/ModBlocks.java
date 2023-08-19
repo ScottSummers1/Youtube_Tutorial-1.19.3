@@ -3,6 +3,7 @@ package net.azureflames.bestiary.block;
 import net.azureflames.bestiary.Bestiary;
 import net.azureflames.bestiary.block.custom.ModFlammableRotatedPillarBlock;
 import net.azureflames.bestiary.item.ModItems;
+import net.azureflames.bestiary.worldgen.tree.EbonyTreeGrower;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -90,7 +91,7 @@ public class ModBlocks {
                 }
             });
     public static final RegistryObject<Block> EBONY_SAPLING = registerBlock("ebony_sapling",
-            () -> new SaplingBlock(null, BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+            () -> new SaplingBlock(new EbonyTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
