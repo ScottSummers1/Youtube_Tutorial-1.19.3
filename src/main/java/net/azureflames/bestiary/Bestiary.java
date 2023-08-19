@@ -55,6 +55,14 @@ public class Bestiary
             event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
             event.accept(ModBlocks.DEEPSLATE_BLACK_OPAL_ORE);
             event.accept(ModBlocks.BLACK_OPAL_ORE);
+
+            event.accept(ModBlocks.EBONY_LEAVES);
+            event.accept(ModBlocks.EBONY_LOG);
+            event.accept(ModBlocks.EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_PLANKS);
+            event.accept(ModBlocks.STRIPPED_EBONY_LOG);
+            event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_SAPLING);
         }
         if(event.getTab() == ModCreativeModeTabs.BESTIARY_TAB) {
             event.accept(ModItems.BLACK_OPAL);
@@ -64,15 +72,14 @@ public class Bestiary
             event.accept(ModBlocks.ENDSTONE_BLACK_OPAL_ORE);
             event.accept(ModBlocks.DEEPSLATE_BLACK_OPAL_ORE);
             event.accept(ModBlocks.BLACK_OPAL_ORE);
-        }
-        if(event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+
             event.accept(ModBlocks.EBONY_LEAVES);
             event.accept(ModBlocks.EBONY_LOG);
+            event.accept(ModBlocks.EBONY_WOOD);
             event.accept(ModBlocks.EBONY_PLANKS);
             event.accept(ModBlocks.STRIPPED_EBONY_LOG);
             event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
             event.accept(ModBlocks.EBONY_SAPLING);
-
         }
     }
 

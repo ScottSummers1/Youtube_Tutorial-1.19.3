@@ -1,10 +1,11 @@
-// 1.19.4	2023-08-11T18:19:10.7475971	Block States: bestiary
+// 1.19.4	2023-08-18T19:23:59.0330614	Block States: bestiary
 3a80544789bc882264ee93b00a18c0e43ebf29dc assets/bestiary/blockstates/black_opal_block.json
 586bed470b17dc19d928209d8b95bc78c8fd6ff1 assets/bestiary/blockstates/black_opal_ore.json
 1f80213654e92fee0604ce4c737f3370050f8acf assets/bestiary/blockstates/deepslate_black_opal_ore.json
 8b506d0db346be36b1ec876e1fb1f9425ee74bc6 assets/bestiary/blockstates/ebony_leaves.json
 6403084f6c35f997680cf5dbcd04072b9a82ff33 assets/bestiary/blockstates/ebony_log.json
 89bd6d088aa2ca9367874ebb1f1cb406ea2f6cec assets/bestiary/blockstates/ebony_planks.json
+d0267cbbdcbab61bdf20c6dbb899b2a092cdd9c0 assets/bestiary/blockstates/ebony_sapling.json
 f7f1ce4db089b12208f593b20ad2bf4e9ae3a6f5 assets/bestiary/blockstates/ebony_wood.json
 0620ccc87f163d520f1b8992738b184de5a16776 assets/bestiary/blockstates/endstone_black_opal_ore.json
 ec8139f32734e76cff8d66d2391b9929fa8da83c assets/bestiary/blockstates/netherrack_black_opal_ore.json
@@ -17,6 +18,7 @@ b321858d55e9d6339d23724603e4ccbb80f97c6a assets/bestiary/models/block/ebony_leav
 209f7a715ed1ad7f0734f0baf4aaa0f8dcfb6076 assets/bestiary/models/block/ebony_log.json
 92a31c4ea8cc1cfc9850bcfe1e055325d13a2e12 assets/bestiary/models/block/ebony_log_horizontal.json
 77d75179c2d5a81c205d6459d32efdb7b97d54ae assets/bestiary/models/block/ebony_planks.json
+834c456de54b1e29f54702fb3c8481dc3adb38bc assets/bestiary/models/block/ebony_sapling.json
 2f5e41b3b04cc7ef269d0b474aa340a5812619a1 assets/bestiary/models/block/ebony_wood.json
 7c1761e5eef72aa80caab3f469bbf0176fb4d7b2 assets/bestiary/models/block/ebony_wood_horizontal.json
 4e22d7474ba76d5b7788de675b188a3728780787 assets/bestiary/models/block/endstone_black_opal_ore.json
