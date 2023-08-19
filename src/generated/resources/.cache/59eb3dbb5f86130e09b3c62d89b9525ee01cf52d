@@ -1,6 +1,13 @@
-// 1.19.4	2023-06-26T15:17:15.793817	Loot Tables
+// 1.19.4	2023-08-11T18:19:10.7465988	Loot Tables
 9ca59feab3f82d370126b137804b3f45b1133d2d data/bestiary/loot_tables/blocks/black_opal_block.json
 e4a7e07b26e370bc144b93e46930d9c7ef4c2183 data/bestiary/loot_tables/blocks/black_opal_ore.json
 86895e2441f1eb0ae59b98130d65f16e189bd12b data/bestiary/loot_tables/blocks/deepslate_black_opal_ore.json
+db33a1d57cd73f3891384375145879c2005635db data/bestiary/loot_tables/blocks/ebony_leaves.json
+cc17d928a67171c96fb21ab5b793a940f2b93857 data/bestiary/loot_tables/blocks/ebony_log.json
+cf8ec3c06cf99cb27f6b11855c592a7091088070 data/bestiary/loot_tables/blocks/ebony_planks.json
+f39c8582fc679332db564be89ecc852800db1abc data/bestiary/loot_tables/blocks/ebony_sapling.json
+86b4563b02982d738cbac86ee7c7dada144e4724 data/bestiary/loot_tables/blocks/ebony_wood.json
 0b614352374f816ed3709cdcc4d77d32d50245eb data/bestiary/loot_tables/blocks/endstone_black_opal_ore.json
 4fca660b1450c673325065680f7035928c7743d5 data/bestiary/loot_tables/blocks/netherrack_black_opal_ore.json
+bc06caf673835250ebaef8ca0abfa3d5c67169f5 data/bestiary/loot_tables/blocks/stripped_ebony_log.json
+0c2dfd9e3313e8a3910ebec3886fbfb8da321102 data/bestiary/loot_tables/blocks/stripped_ebony_wood.json
